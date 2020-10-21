@@ -13,7 +13,7 @@ So, what's the difference between my model and Mike Clay's? Well, first of all, 
 ## Approach
 
 Instead of making a single model to predict play by play fantasy points scored, I decomposed the problem into several sub-problems in order to more easily determine and predict patterns unique to each sub-problem. So this project has 6 models that make up the overall expected points model. They are:
-1. Completion Probability: when a pass is attempted, what is the probability it is completed?
+1. [Completion Probability](https://github.com/willmscaleb/Personal-Data-Projects/edit/main/NFL%20Expected%20Fantasy%20Points/README.md): when a pass is attempted, what is the probability it is completed?
 2. Expected Yards After Catch: when a pass is completed, how many yards after the catch will the receiver accumulate?
 3. Touchdown Probability: 
     1. Pass Attempts: when a pass is attempted, what is the probability it ends in an offensive touchdown?

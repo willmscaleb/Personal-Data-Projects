@@ -16,8 +16,8 @@ Instead of making a single model to predict play by play fantasy points scored, 
 1. Completion Probability: when a pass is attempted, what is the probability it is completed?
 2. Expected Yards After Catch: when a pass is completed, how many yards after the catch will the receiver accumulate?
 3. Touchdown Probability: 
-  1. Pass Attempts: when a pass is attempted, what is the probability it ends in an offensive touchdown?
-  2. Rush Attempts: when a run is attempted, what is the probability it ends in an offensive touchdown?
+  * Pass Attempts: when a pass is attempted, what is the probability it ends in an offensive touchdown?
+  * Rush Attempts: when a run is attempted, what is the probability it ends in an offensive touchdown?
 4. Expected Rushing Yards: when a run is attempted, how many yards will the runningback accumulate?
 5. Fumble Lost Probabilty: when a pass is completed, a run is attempted or a quarterback is sacked, what is the likelihood that the ball carrier loses a fumble? 
 6. Interception Probability: when a pass is attempted, what is the probability it ends in an interception?

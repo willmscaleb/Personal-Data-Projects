@@ -12,20 +12,29 @@ So, what's the difference between my model and Mike Clay's? Well, first of all, 
 
 ## Approach
 
-Instead of making a single model to predict play by play fantasy points scored, I decomposed the problem into several sub-problems in order to more easily determine and predict patterns unique to each sub-problem. So this project has 6 models that make up the overall expected points model. They are:
+Since the goal of this project is to most accurately predict what an average fantasy player would score given his opportunity, I excluded any features that would introduce player/team skill into the model such as player name, player team, and opponent team.
+
+Also, instead of making a single model to predict play by play fantasy points scored, I decomposed the problem into several sub-problems in order to more easily determine and predict patterns unique to each sub-problem. So this project has 6 models that make up the overall expected points model. They are:
 1. [Completion Probability](https://github.com/willmscaleb/Personal-Data-Projects/tree/main/NFL%20Expected%20Fantasy%20Points/Completion%20Probability%20Model): when a pass is attempted, what is the probability it is completed?
-2. Expected Yards After Catch: when a pass is completed, how many yards after the catch will the receiver accumulate?
-3. Touchdown Probability: 
+2. Expected Yards After Catch<sup>1</sup>: when a pass is completed, how many yards after the catch will the receiver accumulate?
+3. Touchdown Probability<sup>1</sup>: 
     1. Pass Attempts: when a pass is attempted, what is the probability it ends in an offensive touchdown?
     2. Rush Attempts: when a run is attempted, what is the probability it ends in an offensive touchdown?
-4. Expected Rushing Yards: when a run is attempted, how many yards will the runningback accumulate?
-5. Fumble Lost Probabilty: when a pass is completed, a run is attempted or a quarterback is sacked, what is the likelihood that the ball carrier loses a fumble? 
-6. Interception Probability: when a pass is attempted, what is the probability it ends in an interception?
+4. Expected Rushing Yards<sup>1</sup>: when a run is attempted, how many yards will the runningback accumulate?
+5. Fumble Lost Probabilty<sup>1</sup>: when a pass is completed, a run is attempted or a quarterback is sacked, what is the likelihood that the ball carrier loses a fumble? 
+6. Interception Probability<sup>1</sup>: when a pass is attempted, what is the probability it ends in an interception?
+
+I use 2 different model dependent scoring methods for this project. For the probability models, since they are binary classification problems where the probability of the outcome is what is important, I use log-loss scoring. For these models, a usefule baseline that I used is to simply set the mean of the train set dependent variable as your predicted probability. The resulting log-loss from this baseline model is described by the plot below.
 
 ## Results
+
+
+
+Presently, the completion probability model is complete while the other models are in development. Once all the models are complete, I will combine their predictions into a complete expected fantasy points per play model for 3 common scoring systems: standard scoring, half ppr (points per reception) scoring, and full ppr scoring. I will then group the play by play expected points by player and game to get a list of game by game expected points by player for the entire dataset (since 2009).
 
 ## Applications
 
 ## Areas to Improve
 
 
+<sup>1</sup> : Model is currently in development

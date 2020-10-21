@@ -12,3 +12,21 @@
 * **Packages:** pandas, numpy, scipy, sklearn, matplotlib, seaborn, xgboost, time
 * **Data:** [nflfastR](https://github.com/guga31bb/nflfastR-data)
 * **For web framework requirements:**
+
+## Exploratory Data Analysis
+
+## Modeling
+
+### Algorithm Selection
+
+Explain the thought process for which algorithms would likely perform well (include scikit learn selection diagram) and why. Address data normalization, for what algorithms it's necessary and what scoring.
+
+### Baseline Models
+
+### Hyperparameter Tuning
+
+Add plots showing improvement iteration by iteration.
+
+### Test Set Performance
+
+### Transformation to Expected Points

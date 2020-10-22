@@ -1,4 +1,4 @@
-# Expected Fantasy Points Part 1: Completion Probability
+# [Expected Fantasy Points](https://github.com/willmscaleb/Personal-Data-Projects/tree/main/NFL%20Expected%20Fantasy%20Points) Part 1: Completion Probability
 
 ## Overview
 * Created completion probability models using limited situational input data achieving improved log-loss error over univariate baseline models.

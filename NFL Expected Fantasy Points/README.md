@@ -35,15 +35,15 @@ For the yards regression models, a proper scoring method is not as simple. Since
 
 The test set scoring results by model are as follows:
 
-| Model             | Scoring Type               | Baseline Score | Model Score |
-| :-----------------|:---------------------------|:---------------|:------------|
-| Completions       | Log-Loss                   | 0.6630         | 0.6013      |  
-| Yards After Catch | Quantile (&gamma; = )      | in progress    | in progress |
-| Pass TDs          | Log-Loss                   | in progress    | in progress |
-| Rush TDs          | Log-Loss                   | in progress    | in progress |
-| Rushing Yards     | Quantile (&gamma; = )      | in progress    | in progress |
-| Fumble Losts      | Log-Loss                   | in progress    | in progress |
-| Interceptions     | Log-Loss                   | in progress    | in progress |
+ Model             | Scoring Type               | Baseline Score | Model Score 
+ :-----------------|:---------------------------|:---------------|:------------
+ Completions       | Log-Loss                   | 0.6630         | 0.6013        
+ Yards After Catch | Quantile (&gamma; = )      | in progress    | in progress 
+ Pass TDs          | Log-Loss                   | in progress    | in progress 
+ Rush TDs          | Log-Loss                   | in progress    | in progress 
+ Rushing Yards     | Quantile (&gamma; = )      | in progress    | in progress 
+ Fumble Losts      | Log-Loss                   | in progress    | in progress 
+ Interceptions     | Log-Loss                   | in progress    | in progress 
 
 Once all the models are complete, I will combine their predictions into a complete expected fantasy points per play model for 3 common scoring systems: standard scoring, half ppr (points per reception) scoring, and full ppr scoring. I will then group the play by play expected points by player and game to get a list of game by game expected points by player for the entire dataset (since 2009). To do this I will first sum up all a players expected fantasy points (not including points from receptions) by drive and take the minimum of this value and the maximum possible points (excluding receptions) the player could accumulate on that drive given the yardline at which his first attempt or target occured. For example, on play 3 of a drive player A gets targetted while his team 80 yards from the endzone. His maximum possible expected points from this drive excluding receptions is now 14 (8 for potential yardage, 6 for potential touchdown). Say player A is targetted 5 more times this drive and has a total drive expected fantasy points of 18, I would then take the 14 points as his expected total since 18 points would have actually been an impossibility and only arrived because of failure to capitalize on his expectation (except in the case where there were negative yardage plays during the drive, but this discrepancy will be small and rare).
 

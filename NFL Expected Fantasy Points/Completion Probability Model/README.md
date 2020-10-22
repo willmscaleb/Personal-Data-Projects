@@ -27,12 +27,20 @@ From my EDA, I knew that there were only a few features with any significant cor
 
 ### Baseline Models
 Since I am interested in the probability of the outcome, I used log-loss scoring. For my 1st baseline model, I used a constant prediction probability of the mean completion percentage of the train dataset (illustrated in the plot below). I also came up with a second better baseline model that was a univariate model that used the feature PassLocDp to predict the mean probability base on the pass grid location (as plotted in the exploratory data analysis). The resulting log-loss achieved by these baselines respectively was 0.662986 and 0.627003.
+
 ![](Images/logloss1.png)
 
 ### Hyperparameter Tuning
 
-Add plots showing improvement iteration by iteration.
+Instead of using the well known gid search or randomized search algorithms for hyperparameter tuning, I prefer to use the more efficient Bayesian Optimization method through the hyperopt package. To do so, I defined an objective function for the hyperopt fmin function (minimizes the objective function over a defined parameter space). My objective function had the following features:
+* 3 fold stratified cross validation
+* Log-loss scoring of every fold as well as the mean of the 3 folds
+* Capability to choose correct algorithm model pipeline based on input parameter space
+* Included feature scaling via StandardScaler and feature selection via SelectKBest in pipelines for appropriate models
+* Times fmin function run time
 
 ### Test Set Performance
+
+
 
 ## Output Sample

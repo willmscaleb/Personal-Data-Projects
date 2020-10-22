@@ -14,7 +14,7 @@
 * **For web framework requirements:** in progress (will add soon)
 
 ## Exploratory Data Analysis
-![](/Images/cmp%_by_quadrant.png)
+![](Images/cmp_by_quadrant.png)
 
 ## Modeling
 

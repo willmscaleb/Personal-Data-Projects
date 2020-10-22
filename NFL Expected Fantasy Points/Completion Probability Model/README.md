@@ -41,6 +41,20 @@ Instead of using the well known gid search or randomized search algorithms for h
 
 ### Test Set Performance
 
+ Model                       | Log-Loss Score 
+ :---------------------------|:---------------
+ eXtreme Gradient Boosting   | 0.601049        
+ Logistic Regression         | 0.606708 
+ Stochastic Gradient Descent | 0.607464
+ K-Nearest Neighbors         | 0.624625 
+ Pass Grid Baseline          | 0.627003 
+ Mean Cmp% Baseline          | 0.662986 
 
+In the end, all of the tested algorithms outperformed both the baseline models, but not by a huge margin. This small margin of outperformance is not surprising considering input data was restricted to opportunity related metrics and did not include any skill related metrics. Football is also a highly random sport and predictions can rarely be made with significant accuracy. 
+
+The XGBoost model was the winner on a scoring basis, but logistic regression provides a much simpler, faster and more interpretable solution that scored only slightly worse. Since, computational time isn't very important to me to minimize in this project (provided it isn't extremely long), I chose to proceed with the XGBoost model.
+
+Just for reference, these are the most important features my XGBoost model consider:
+![](Images/xgb_feat_imp.png)
 
 ## Output Sample

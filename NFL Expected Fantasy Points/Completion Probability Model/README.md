@@ -29,4 +29,4 @@ Add plots showing improvement iteration by iteration.
 
 ### Test Set Performance
 
-## Expected Points By Target and Pass Attempt
+## Output Sample

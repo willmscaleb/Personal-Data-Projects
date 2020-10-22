@@ -11,7 +11,7 @@
 * **Python version:** 3.7
 * **Packages:** pandas, numpy, scipy, sklearn, matplotlib, seaborn, xgboost, time
 * **Data:** [nflfastR](https://github.com/guga31bb/nflfastR-data)
-* **For web framework requirements:**
+* **For web framework requirements:** in progress (will add soon)
 
 ## Exploratory Data Analysis
 

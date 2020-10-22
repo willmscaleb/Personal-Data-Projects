@@ -55,6 +55,6 @@ In the end, all of the tested algorithms outperformed both the baseline models, 
 The XGBoost model was the winner on a scoring basis, but logistic regression provides a much simpler, faster and more interpretable solution that scored only slightly worse. Since, computational time isn't very important to me to minimize in this project (provided it isn't extremely long), I chose to proceed with the XGBoost model.
 
 Just for reference, these are the most important features my XGBoost model consider:
-![](Images/xgb_feat_imp.png)
+![](Images/xgb_ft_imp.png)
 
 ## Output Sample

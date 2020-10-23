@@ -27,11 +27,8 @@ The main steps I followed for exploratory data analysis and data preprocessing c
 
 Below is a brief summary of my data visualizations.
 
-|                          |                             |
-|:------------------------:|:---------------------------:|
-|![](Images/cmp_dist.png)  |![](Images/cmp_dist_ay.png)  |
-|![](Images/cmp_gridm.png) |![](Images/corr_hmap.png)    |
-
+![](Images/cmp_dist.png)  ![](Images/cmp_dist_ay.png)  
+![](Images/cmp_gridm.png) ![](Images/corr_hmap.png)    
 ![](Images/yj_trnsf.png)
 
 ## Modeling

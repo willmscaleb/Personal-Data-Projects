@@ -10,5 +10,6 @@ During my undergraduate studies in Mechanical Engineering at McGill University, 
 
 ## Contact
 willms.caleb@gmail.com
+
 [Linkedin Profile](https://www.linkedin.com/in/calebwillms/)
 

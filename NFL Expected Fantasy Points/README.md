@@ -37,7 +37,7 @@ The test set scoring results by model are as follows:
 
  Model             | Scoring Type               | Baseline Score | Model Score 
  :-----------------|:---------------------------|:---------------|:------------
- Completions       | Log-Loss                   | 0.6630         | 0.6013        
+ Completions       | Log-Loss                   | 0.662986       | 0.601049        
  Yards After Catch | Quantile (&gamma; = )      | in progress    | in progress 
  Pass TDs          | Log-Loss                   | in progress    | in progress 
  Rush TDs          | Log-Loss                   | in progress    | in progress 

@@ -23,10 +23,11 @@ The main steps I followed for exploratory data analysis and data preprocessing c
 * Mean encoded categorical features as well as some continuous/semi-continuous numeric features and plotted histograms of each,
 * Plotted a correlation heatmap and defined a collinear cleaning function that drops all collinear features (based on a correlation coefficient threshold) except  the one that is most highly correlated to the target variable (this function was specifically used for the linear models),
 * Defined and plotted a log-loss scoring baseline model for comparison.
+* Conducted yeo-johnson transformations of continuous/semi-continuous features for the linear models and plotted the results
 
 Below is a summary of my data visualizations.
 
-![](Images/cmp_grid.png).    ![](Images/corr_hm.png)
+![](Images/cmp_grid.png) ![](Images/corr_hm.png) 
 
 ## Modeling
 

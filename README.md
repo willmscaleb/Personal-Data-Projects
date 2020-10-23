@@ -6,9 +6,9 @@ During my undergraduate studies in Mechanical Engineering at McGill University, 
 
 ## Projects
 
-### [NFL Expected Fantasy Points]
+### [NFL Expected Fantasy Points](https://github.com/willmscaleb/Personal-Data-Projects/tree/main/NFL%20Expected%20Fantasy%20Points)
 
 ## Contact
 willms.caleb@gmail.com
-https://www.linkedin.com/in/calebwillms/
+[Linkedin Profile](https://www.linkedin.com/in/calebwillms/)
 

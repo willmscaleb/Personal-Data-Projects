@@ -26,7 +26,7 @@ The main steps I followed for exploratory data analysis and data preprocessing c
 
 Below is a summary of my data visualizations.
 
-![](Images/cmp_by_quadrant.png)
+![](Images/cmp_grid.png)
 
 ## Modeling
 
@@ -67,6 +67,6 @@ In the end, all of the tested algorithms outperformed both the baseline models, 
 The XGBoost model was the winner on a scoring basis, but logistic regression provides a much simpler, faster and more interpretable solution that scored only slightly worse. Since, computational time isn't very important to me to minimize in this project (provided it isn't extremely long), I chose to proceed with the XGBoost model.
 
 For reference, below is a plot of the XGBoost model's top 10 most important features. As you can see, the model is very heavily weighted towards metrics describing depth of target, horizontal location of target, and field position.
-![](Images/xgb_ft_imp.png)
+![](Images/xgb_f_imp.png)
 
 ## Output Sample

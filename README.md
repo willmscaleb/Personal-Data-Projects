@@ -6,7 +6,7 @@ During my undergraduate studies in Mechanical Engineering at McGill University, 
 
 ## Projects
 
-### Fantasy Football Expected Points Model
+### [NFL Expected Fantasy Points]
 
 ## Contact
 willms.caleb@gmail.com

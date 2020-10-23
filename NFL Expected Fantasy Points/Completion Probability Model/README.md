@@ -29,10 +29,7 @@ Below is a summary of my data visualizations.
 
 |                          |                             |
 |:------------------------:|:---------------------------:|
-|![](Images/cmp_dist.png)  |![](Images/corr_dist_ay.png) |
-
-|                          |                             |
-|:------------------------:|:---------------------------:|
+|![](Images/cmp_dist.png)  |![](Images/cmp_dist_ay.png)  |
 |![](Images/cmp_gridm.png) |![](Images/corr_htmap.png)   |
 
 ![](Images/yj_trnsf.png)

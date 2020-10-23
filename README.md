@@ -25,6 +25,6 @@ To achieve this goal, instead of making a single model to predict overall play b
 willms.caleb@gmail.com
 
 
-<sup>1</sup> : 
+<sup>1</sup> : Model is currently in development
 
 

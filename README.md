@@ -19,12 +19,10 @@ To achieve this goal, instead of making a single model to predict overall play b
 5. Fumble Lost Probabilty <sup>1</sup>
 6. Interception Probability <sup>1</sup>
 
+
+<sup>1</sup> : Model is currently in development
+
 ## Contact
 [Linkedin Profile](https://www.linkedin.com/in/calebwillms/)
 
 willms.caleb@gmail.com
-
-
-<sup>1</sup> : Model is currently in development
-
-

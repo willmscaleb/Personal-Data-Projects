@@ -13,7 +13,19 @@
 * **Data:** [nflfastR](https://github.com/guga31bb/nflfastR-data)
 * **For web framework requirements:** in progress (will add soon)
 
-## Exploratory Data Analysis
+## EDA and Preprocessing
+The main steps I followed for exploratory data analysis and data preprocessing can be summarized as:
+* Dropped all irrelevant and non-opportunity associated columns,
+* Dropped all non-pass attempt data points and pass-attempts with incosnsistencies such as air yards and yards after catch not summing up to yards gained,
+* Binned and combined certain features that I suspected could hold valuable information (based on my football knowledge),
+* Plotted completion and incompletion distributions of all features, as well as a passing grid heatmap of completion percentage,
+* Based on observations from the plots, I engineered more features and cleaned up the data a little more,
+* Mean encoded categorical features as well as some continuous/semi-continuous numeric features and plotted histograms of each,
+* Plotted a correlation heatmap and defined a collinear cleaning function that drops all collinear features (based on a correlation coefficient threshold) except  the one that is most highly correlated to the target variable (this function was specifically used for the linear models),
+* Defined and plotted a log-loss scoring baseline model for comparison.
+
+Below is a summary of my data visualizations.
+
 ![](Images/cmp_by_quadrant.png)
 
 ## Modeling
@@ -54,7 +66,7 @@ In the end, all of the tested algorithms outperformed both the baseline models, 
 
 The XGBoost model was the winner on a scoring basis, but logistic regression provides a much simpler, faster and more interpretable solution that scored only slightly worse. Since, computational time isn't very important to me to minimize in this project (provided it isn't extremely long), I chose to proceed with the XGBoost model.
 
-Just for reference, these are the most important features my XGBoost model consider:
+For reference, below is a plot of the XGBoost model's top 10 most important features. As you can see, the model is very heavily weighted towards metrics describing depth of target, horizontal location of target, and field position.
 ![](Images/xgb_ft_imp.png)
 
 ## Output Sample

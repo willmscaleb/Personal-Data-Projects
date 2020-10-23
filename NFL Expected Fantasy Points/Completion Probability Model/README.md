@@ -25,12 +25,12 @@ The main steps I followed for exploratory data analysis and data preprocessing c
 * Defined and plotted a log-loss scoring baseline model for comparison.
 * Conducted yeo-johnson transformations of continuous/semi-continuous features for the linear models and plotted the results
 
-Below is a summary of my data visualizations.
+Below is a brief summary of my data visualizations.
 
 |                          |                             |
 |:------------------------:|:---------------------------:|
 |![](Images/cmp_dist.png)  |![](Images/cmp_dist_ay.png)  |
-|![](Images/cmp_gridm.png) |![](Images/corr_htmap.png)   |
+|![](Images/cmp_gridm.png) |![](Images/corr_hmap.png)    |
 
 ![](Images/yj_trnsf.png)
 

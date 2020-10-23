@@ -73,3 +73,11 @@ For reference, below is a plot of the XGBoost model's top 10 most important feat
 ![](Images/xgb_f_imp.png)
 
 ## Output Sample
+ 
+ Play_ID            | exp_rec  | exp_rec_hppr_pts | exp_recyds_pts | exp_passyds_pts |
+ :------------------|:---------|:-----------------|:---------------|:----------------|
+ 1852019_01_ATL_MIN | 0.712077 | 0.356039         | 0.1            | 0.04            |       
+ 2442012_14_NO_NYG  | 0.691072 | 0.345536         | 0.1            | 0.04            | 
+ 1902017_06_PHI_CAR | 0.724023 | 0.362012         | 0.1            | 0.04            | 
+ 1672014_13_ARI_ATL | 0.424897 | 0.212449         | 0.1            | 0.04            | 
+ 1472019_09_NE_BAL  | 0.725144 | 0.362572         | -0.4           | -0.16           | 

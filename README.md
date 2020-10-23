@@ -7,8 +7,9 @@ During my undergraduate studies in Mechanical Engineering at McGill University, 
 ## Projects
 
 ### [NFL Expected Fantasy Points](https://github.com/willmscaleb/Personal-Data-Projects/tree/main/NFL%20Expected%20Fantasy%20Points)
-* Creating a metric for expected individual fantasy points based on opportunity by building various machine learning models using only metrics descriptive of individual player opportunity
-    * [Completion Probability]()
+* Creating a metric for expected individual fantasy points based on opportunity by building various machine learning models using only metrics descriptive of individual player opportunity. 
+* The models 
+    * [Completion Probability](https://github.com/willmscaleb/Personal-Data-Projects/tree/main/NFL%20Expected%20Fantasy%20Points/Completion%20Probability%20Model)
     * Yards Aft fumble lost and interception probability and regression models for yards after catch and rushing yards.
 
 ## Contact

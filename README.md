@@ -12,6 +12,12 @@ The goal of this project is (currently the project is in progress) to create a m
 To achieve this goal, instead of making a single model to predict overall play by play fantasy points scored, I decomposed the problem into several sub-problems in order to more easily determine and predict patterns unique to each sub-problem. There are 4 classification models and 2 regression models that will make up the expected fantasy points metric.
 
 #### 1. [Completion Probability](https://github.com/willmscaleb/Personal-Data-Projects/tree/main/NFL%20Expected%20Fantasy%20Points/Completion%20Probability%20Model)
+* Created completion probability models using limited situational input data achieving improved log-loss error over univariate baseline models.
+* Optimized logistic regression, stochastic gradient descent, k-nearest neighbors, and xgboost classifiers hyperparameters with bayesian optimization through hyperopt.
+* Transformed the model output into the following two outputs:
+    * Expected fantasy points for a target not including yards after catch (YAC);
+    * Expected fantasy points for a pass attempt not including YAC.
+    
 #### 2. Expected Yards After Catch <sup>1</sup>
 #### 3. Touchdown Probability <sup>1</sup>:
         1. Pass Attempts

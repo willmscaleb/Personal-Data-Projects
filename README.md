@@ -21,12 +21,11 @@ To achieve this goal, instead of making a single model to predict overall play b
 ![](NFL%20Expected%20Fantasy%20Points/Completion%20Probability%20Model/Images/cmp_gridm.png)
 
 #### 2. Expected Yards After Catch <sup>1</sup>
-#### 3. Touchdown Probability <sup>1</sup>:
-        1. Pass Attempts
-        2. Rush Attempts
+#### 3. Touchdown Probability <sup>1</sup>
 #### 4. Expected Rushing Yards <sup>1</sup>
 #### 5. Fumble Lost Probabilty <sup>1</sup>
 #### 6. Interception Probability <sup>1</sup>
+
 
 
 <sup>1</sup> : Model is currently in development

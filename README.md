@@ -17,7 +17,9 @@ To achieve this goal, instead of making a single model to predict overall play b
 * Transformed the model output into the following two outputs:
     * Expected fantasy points for a target not including yards after catch (YAC);
     * Expected fantasy points for a pass attempt not including YAC.
-    
+
+![](/NFL Expected Fantasy Points/Completion Probability Model/Images/cmp_gridm.png)
+
 #### 2. Expected Yards After Catch <sup>1</sup>
 #### 3. Touchdown Probability <sup>1</sup>:
         1. Pass Attempts

@@ -9,15 +9,16 @@ During my undergraduate studies in Mechanical Engineering at McGill University, 
 ### [NFL Expected Fantasy Points](https://github.com/willmscaleb/Personal-Data-Projects/tree/main/NFL%20Expected%20Fantasy%20Points)
 The goal of this project is (currently the project is in progress) to create a metric for expected individual player fantasy points based on the opportunity that player receives in a given game. This metric should be more predictive of future fantasy points than any freely available metrics.
 
-To achieve this goal, instead of making a single model to predict overall play by play fantasy points scored, I decomposed the problem into several sub-problems in order to more easily determine and predict patterns unique to each sub-problem. So this project has 6 models that make up the overall expected points metric. They are:
-1. [Completion Probability](https://github.com/willmscaleb/Personal-Data-Projects/tree/main/NFL%20Expected%20Fantasy%20Points/Completion%20Probability%20Model)
-2. Expected Yards After Catch <sup>1</sup>
-3. Touchdown Probability <sup>1</sup>:
-    1. Pass Attempts
-    2. Rush Attempts
-4. Expected Rushing Yards <sup>1</sup>
-5. Fumble Lost Probabilty <sup>1</sup>
-6. Interception Probability <sup>1</sup>
+To achieve this goal, instead of making a single model to predict overall play by play fantasy points scored, I decomposed the problem into several sub-problems in order to more easily determine and predict patterns unique to each sub-problem. There are 4 classification models and 2 regression models that will make up the expected fantasy points metric.
+
+#### 1. [Completion Probability](https://github.com/willmscaleb/Personal-Data-Projects/tree/main/NFL%20Expected%20Fantasy%20Points/Completion%20Probability%20Model)
+#### 2. Expected Yards After Catch <sup>1</sup>
+#### 3. Touchdown Probability <sup>1</sup>:
+        1. Pass Attempts
+        2. Rush Attempts
+#### 4. Expected Rushing Yards <sup>1</sup>
+#### 5. Fumble Lost Probabilty <sup>1</sup>
+#### 6. Interception Probability <sup>1</sup>
 
 
 <sup>1</sup> : Model is currently in development
